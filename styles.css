@@ -3,18 +3,22 @@
 }
 a{
     color:black;
+    margin: 5px;
+    font-family: sans-serif;
+    text-decoration: none;
 }
 a:hover{
     color: gray;
 }
 #sign-in{
-    background-color: blue;
+    background-color: rgb(60, 142, 196);
     color: whitesmoke;
-    border-radius: 5px;
     cursor: pointer;
-}
-#sign-in:hover{
-    background-color: rgb(70, 70, 202);
+    padding: 6px;
+    font-family: sans-serif;
+    border: rgb(60, 142, 196);
+    border-radius: 2px;
+    margin: 10px;
 }
 main{
     width: auto;
@@ -24,7 +28,7 @@ main{
     margin: auto;
     display: flex;
     flex-direction: column;
-    padding-top: 13%;
+    padding-top: 10%;
 }
 #inp{
     padding-top: 30px;
@@ -34,13 +38,14 @@ main{
     width: 98%;
     border-radius: 22px;
     min-height: 25px;
-    padding: 6px;
-    border-color: floralwhite;
+    padding: 7px;
+    border-color: #f9f9f93d;
     border-bottom-color: lightgray;
     border-inline-end-color: inherit;
+    font-size: inherit;
 }
-input:hover{
-    box-shadow: 2px 2px #e0e0e0;
+#srch:hover{
+    box-shadow: 2px 2px #e6e6e6;
 }
 #extra{
     padding: 20px;
@@ -55,7 +60,28 @@ input:hover{
     color:rgb(100, 100, 100);
     border: rgb(202, 200, 200);
     cursor: pointer;
+    font-family: sans-serif;
 }
 .more:hover{
     box-shadow: 2px 2px #e0e0e0;
+}
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+}
+.footlft{
+    color: rgb(117, 117, 117);
+    margin: 10px;
+}
+.footrt{
+    color: rgb(117, 117, 117);
+    margin: 10px;
+}
+#footrt1{
+    margin: 10px 6px auto auto;
 }
