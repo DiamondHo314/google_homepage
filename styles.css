@@ -1,0 +1,61 @@
+#heder{
+    text-align: end;
+}
+a{
+    color:black;
+}
+a:hover{
+    color: gray;
+}
+#sign-in{
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sign-in:hover{
+    background-color: rgb(70, 70, 202);
+}
+main{
+    width: auto;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 13%;
+}
+#inp{
+    padding-top: 30px;
+    width: 42%;
+}
+#srch{
+    width: 98%;
+    border-radius: 22px;
+    min-height: 25px;
+    padding: 6px;
+    border-color: floralwhite;
+    border-bottom-color: lightgray;
+    border-inline-end-color: inherit;
+}
+input:hover{
+    box-shadow: 2px 2px #e0e0e0;
+}
+#extra{
+    padding: 20px;
+}
+.more{
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(233, 232, 232);
+    border-color: floralwhite;
+    border-bottom-color: lightgray;
+    border-inline-end-color: inherit;
+    color:rgb(100, 100, 100);
+    border: rgb(202, 200, 200);
+    cursor: pointer;
+}
+.more:hover{
+    box-shadow: 2px 2px #e0e0e0;
+}
